@@ -2,4 +2,6 @@ streamlit
 openai
 googlemaps
 requests
-sqlite3
+uvicorn
+fastapi
+python-dotenv

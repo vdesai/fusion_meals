@@ -1,7 +1,13 @@
 import openai
 
-# OpenAI API Key
-OPENAI_API_KEY = "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"
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env
+load_dotenv()
+
+# Retrieve API keys securely
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def generate_fusion_recipe(ingredients, cuisine1, cuisine2, diet="None"):
     """

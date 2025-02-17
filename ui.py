@@ -152,4 +152,4 @@ elif page == "AI Meal Planner + Grocery Ordering":
 
 # Footer
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: #888;'>💡 <i>Powered by AI | Created by [Your Name]</i></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #888;'>💡 <i>Powered by AI | Created by [Vinit Desai]</i></p>", unsafe_allow_html=True)
